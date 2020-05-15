@@ -65,6 +65,7 @@ class Main extends CI_Controller
 		}
 
 		$data['title'] = "JacynoPOS";
+		$data['scripts'] = "kitchen/main_menu";
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('kitchen/main', $data);
